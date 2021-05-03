@@ -5,8 +5,14 @@ body {
     padding: 8em 0;
     background-color: hsl(185, 75%, 39%);
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    height: 100vh;
     background-position: calc(50% - 478px) calc(0% - 478px), calc(50% + 478px) calc(110vh - 478px);
     background-repeat: no-repeat, no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
