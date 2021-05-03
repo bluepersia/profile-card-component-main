@@ -2,5 +2,15 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 8em 0;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: calc(50% - 478px) calc(0% - 478px), calc(50% + 478px) calc(110vh - 478px);
+    background-repeat: no-repeat, no-repeat;
+
+}
+
+
+.body__profile {
+    width: 87.2%;
 }

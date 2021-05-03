@@ -18,4 +18,5 @@
 .profile {
     font-family: var(--font);
     font-size: 1.125rem;
+    max-width: 350px;
 }
