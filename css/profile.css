@@ -1,0 +1,21 @@
+:root {
+    --c-1: hsl(185, 75%, 39%);
+    --c-2: hsl(229, 23%, 23%);
+    --c-3: hsl(227, 10%, 46%);
+
+    --n-1: hsl(0, 0%, 59%);
+
+    --font: 'Kumbh Sans', sans-serif;
+}
+
+.profile, .profile *, .profile::after, .profile::before, .profile *::after, .profile *::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile {
+    font-family: var(--font);
+    font-size: 1.125rem;
+}
