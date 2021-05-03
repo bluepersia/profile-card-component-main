@@ -3,7 +3,8 @@
     --c-2: hsl(229, 23%, 23%);
     --c-3: hsl(227, 10%, 46%);
 
-    --n-1: hsl(0, 0%, 59%);
+    --n-1: hsla(0, 0%, 59%, 40%);
+    --n-2: white;
 
     --font: 'Kumbh Sans', sans-serif;
 }
@@ -19,4 +20,63 @@
     font-family: var(--font);
     font-size: 1.125rem;
     max-width: 350px;
+
+    background-color: var(--n-2);
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    padding-top: 4.8em;
+    text-align: center;
+
+    border-radius: 5%;
+    color:var(--c-2);
+}
+
+
+
+.profile__img {
+    border-radius: 50%;
+    border: solid 5px var(--n-2);
+    margin-bottom: 1em;
+}
+
+
+
+.profile__name {
+    font-weight: 700;
+    margin-bottom: 0.6em;
+}
+
+.profile__age {
+    font-weight: 400;
+    margin-left: 0.3em;
+}
+
+.profile__age, .profile__location {
+    color: var(--c-3);
+}
+
+
+.profile__location {
+    font-size: 0.8em;
+}
+
+
+.profile__stats {
+    margin-top: 1.5em;
+    display:grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    padding: 1.4em;
+    border-top: solid 1px var(--n-1);
+}
+
+
+.profile__stat-value {
+    font-weight: 700;
+    margin-bottom: 0.3em;
+}
+
+.profile__stat-label {
+    color: var(--c-3);
+    font-size: 0.6em;
+    letter-spacing: 0.1em;
 }
